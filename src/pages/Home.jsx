@@ -1,69 +1,34 @@
+import About from "./About"
 
 function Home() {
   return (
     <div>
+<div className="w-screen h-screen bg-cover bg-center flex flex-col justify-center items-center text-white text-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')" }}>
+  <span className="text-7xl font-semibold  ">EXPLORE THE WORLD</span>
+  <h1 className="text-white bg-blue-500  p-2 mt-4 font-semibold text-lg">
+    Your next great adventure starts here.
+  </h1>
+  <p className="text-black text-lg">
+    Discover unforgettable destinations, curated experiences, and personalized <br /> journeys designed around the way you love to travel.
+  </p>
 
-
- <div className="w-screen h-screen bg-cover bg-center bg-no-repeat text-white bg-[url('https://cdn.cosmos.so/b8fca00b-e7d3-41f5-b3d6-d9665b10b5c1?format=jpeg')] flex "> 
- <div className=""> <div className="mx-10 my-60"> <h1 className="text-black text-5xl my-4">Naturally <br/>Radiant skin </h1> <span className="text-black text-16">Revel the glow with our face wash.</span> <br/> <button className="bg-black text-teal-50 h-10 w-60 rounded-3xl my-4 hover:bg-white hover:shadow-lg hover:text-black">View Collection</button> </div> </div> </div>
-
-
-
-
-
-
- <div className="flex flex-wrap  justify-between">
-   <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Natural Formula</span> 
-  </div>
-
-   <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Cruelty Free</span> 
-  </div>
-
-   <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Expert Approved</span> 
-  </div>
-
-   <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Free Shipping</span> 
-  </div>
-
-   <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Best Seller</span> 
-  </div>
-
-     <div className=" text-black w-40 h-30 text-center flex justify-center items-center mx-5 my-10 rounded-2xl shadow-lg hover:border-2">
-     <span className="text-lg font-extralight">Best Perfomer</span> 
-  </div>
-
-
- </div>
-
-
-
-
-<div>
-  <span className="flex justify-center font-light text-3xl m-5">Referesh your skin, love yourself, renew your glow. </span>
-</div>
-
-<div>
-  <div >
- <span className="flex justify-center text-3xl">Best for you</span>
-<br/>
- <span className="flex justify-center  text-5xl">Our Bestseller</span>
- </div>
-
-
-
- 
-
-
-</div>
-
-
-
+  {/* <div>
+    <div className="flex mt-10 gap-4">
+      <div className=" z-40 bg-blue-400 border border-amber-50 w-10 h-10 rounded-3xl"></div>
+      <div className="z-30 bg-blue-400 border border-amber-50 w-10 h-10 rounded-3xl"></div>
+      <div className="z-20 bg-blue-400 border border-amber-50 w-10 h-10 rounded-3xl"></div>
+     
     </div>
+  </div> */}
+
+
+
+
+</div>
+
+<About/>
+    </div>
+    
   )
 }
 

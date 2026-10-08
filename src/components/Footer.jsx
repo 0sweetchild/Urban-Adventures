@@ -6,31 +6,33 @@ function Footer() {
 
 
 
-<footer class="bg-neutral-primary-soft rounded-base shadow-xs border border-default m-4 mt-50">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
-                <span class="text-heading self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span>
-            </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-body sm:mb-0">
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
+<footer class= "bg-blue-500 rounded-base shadow-xs">
+  <div className="flex justify-between items-center p-10">
+  <div> 
+    <span className="text-3xl text-white">Wanderly</span>
+    <p className="text-white text-sm mt-4">Crafting unforgettable journeys, curated experiences, <br /> and seamless travel adventures around the globe.</p>
+
+    <div className=" gap-4 mt-4">
+        <p className="text-xl text-white">Join our travel community</p>
+        <div>
+            <input type="text"  placeholder="Enter your email address" className="bg-white m-2 p-2 rounded-sm"/> <button className="bg-black text-white text-semibold m-2 p-2 rounded-sm">Subscribe</button>
         </div>
-        <hr class="my-6 border-default sm:mx-auto lg:my-8" />
-        <span class="block text-sm text-body sm:text-center">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
     </div>
+  </div>
+
+  <div className="flex flex-col gap-4 ">
+    <a href="" className="text-white text-semibold ">Instagram</a>
+    <a href="" className="text-white text-semibold ">Facebook</a>
+    <a href="" className="text-white text-semibold ">Twitter</a>
+    <a href="" className="text-white text-semibold ">LinkedIn</a>
+  </div>
+  <div><svg  className="w-40 h-40 " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane preview-icon"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg> </div>
+
+
+
+  </div>
+
+
 </footer>
 
 
