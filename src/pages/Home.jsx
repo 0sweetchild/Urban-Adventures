@@ -1,14 +1,17 @@
 import About from "./About"
+import Destination from "./Destination"
+import Experience from "./Experience"
+import Packages from "./Packages"
 
 function Home() {
   return (
     <div>
-<div className="w-screen h-screen bg-cover bg-center flex flex-col justify-center items-center text-white text-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')" }}>
-  <span className="text-7xl font-semibold  ">EXPLORE THE WORLD</span>
-  <h1 className="text-white bg-blue-500  p-2 mt-4 font-semibold text-lg">
+<div className="w-screen h-screen bg-cover bg-center flex flex-col justify-center items-center text-black text-center"  >
+  <span className="text-8xl font-bold  "><span className="text-blue-500">EXPLORE </span> <br />THE WORLD</span>
+  <h1 className="text-blue-500  p-2 mt-8 font-semibold text-2xl">
     Your next great adventure starts here.
   </h1>
-  <p className="text-black text-lg">
+  <p className="text-black text-xl">
     Discover unforgettable destinations, curated experiences, and personalized <br /> journeys designed around the way you love to travel.
   </p>
 
@@ -26,6 +29,9 @@ function Home() {
 
 </div>
 
+<Destination/>
+<Packages/>
+<Experience/>
 <About/>
     </div>
     
