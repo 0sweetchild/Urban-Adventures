@@ -1,6 +1,6 @@
 
 import { Link, useParams } from "react-router";
-import {   ArrowLeft,   Clock,   MapPin,   Users,   CheckCircle2,  XCircle,  CalendarDays,} from "lucide-react";
+import {   ArrowLeft,   Clock,   MapPin,   Users,   CheckCircle2,  XCircle,  } from "lucide-react";
 
 import packages from "../data/packages";
 
