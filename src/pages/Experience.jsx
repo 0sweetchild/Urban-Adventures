@@ -15,7 +15,7 @@ function Experience() {
 <img src="https://i.pinimg.com/736x/84/56/6f/84566fcd669abc97ea9f58145127428e.jpg" alt="" className="h-full w-80 grayscale hover:filter-none duration-500" />
 </div>
 <div>
- <h1 className="text-2xl mt-20 font-semibold  ">Why Book Experiences with <span className="text-blue-500"> Wanderly? </span></h1>
+ <h1 className="text-2xl mt-20 font-semibold  ">Why Book Experiences with <span className="text-blue-500"> UrbanAdventure? </span></h1>
 
 <br />
 <div>
@@ -42,9 +42,9 @@ function Experience() {
 <div>
     <div className=""><span className="font-semibold">MOMENTS IN MOTION</span>
 <h1  className="text-5xl text-blue-500">Captured by our community, curated for inspiration.</h1>
-<p className="text-lg mt-3">Real moments shared by Wanderly travelers exploring breathtaking corners of the globe. <br />
+<p className="text-lg mt-3">Real moments shared by UrbanAdventure travelers exploring breathtaking corners of the globe. <br />
 
-<span className="font-semibold">Tag @WanderlyTravel or use #WanderlyJourneys to be featured.</span></p>
+<span className="font-semibold">Tag @UrbanAdventureTravel or use #UrbanAdventureJourneys to be featured.</span></p>
 </div>
 
 <div className=" grid grid-col-2 md:grid-cols-4 gap-4 mt-6">

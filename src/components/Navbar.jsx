@@ -4,7 +4,7 @@ function Navbar() {
     <div>
 
 <nav className="flex justify-between items-center p-2  pr-5 pl-5 bg-white drop-shadow-sm position: fixed w-full z-10">
- <a href="/" className="text-3xl"><span className="text-blue-500">W</span>anderly</a>
+ <a href="/" className="text-3xl"><span className="text-blue-500">U</span>rban</a>
  <div className="text-lg  gap-6 hidden md:flex ">
   <a href="/destination">Destination</a>
   <a href="/packages">Packages</a>

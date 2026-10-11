@@ -9,7 +9,7 @@ function Footer() {
 <footer class= "bg-blue-500 rounded-base shadow-xs">
   <div className="flex justify-center items-center p-10">
   <div className="flex  gap-4 justify-between items-center"> 
-    <span className="text-3xl text-white flex">Wanderly</span>
+    <span className="text-3xl text-white flex">UrbanAdventures</span>
     <p className="text-white text-sm mt-4">Crafting unforgettable journeys, curated experiences, <br /> and seamless travel adventures around the globe.</p>
 
     <div className=" gap-4 mt-4">
