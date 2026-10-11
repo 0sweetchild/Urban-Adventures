@@ -14,6 +14,7 @@ import Destination from './pages/Destination'
 import Packages from './pages/Packages'
 import PackageDetails from './pages/PackageDetails'
 import Experience from './pages/Experience'
+import Book from './pages/Book'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/book" element={<Book />} />
     
 
         <Route path="/about" element={<About />} />
