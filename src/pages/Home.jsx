@@ -33,6 +33,8 @@ function Home() {
 <Packages/>
 <Experience/>
 <About/>
+
+<div className="bg-blue-500 text-white m-5 w-10 h-10 rounded-2xl flex justify-center items-center "><a href="/"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-up preview-icon"><path d="M8 6L12 2L16 6"/><path d="M12 2V22"/></svg> </a></div>
     </div>
     
   )
